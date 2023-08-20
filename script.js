@@ -1,6 +1,6 @@
 const dictionary = new Set();
 function saveWord() {
-  const newWord = document.getElementById("newWord").value.trim();
+  const newWord = document.getElementById("newWord").value;
   if (newWord) {
     dictionary.add(newWord);
     alert("Word saved!");
