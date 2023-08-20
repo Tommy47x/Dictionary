@@ -10,7 +10,7 @@ function saveWord() {
 
 function wordCheck() {
   const searchWordInput = document.getElementById("searchWord");
-  const wordToSearch = searchWordInput.value.trim();
+  const wordToSearch = searchWordInput.value;
   const resultMessage = document.getElementById("resultMessage");
   
   resultMessage.innerHTML = dictionary.has(wordToSearch)
