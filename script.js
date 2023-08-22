@@ -11,6 +11,7 @@ function saveWord() {
 
 
 function wordCheck() {
+  
   const searchWordInput = document.getElementById("searchWord");
   const wordToSearch = searchWordInput.value;
   const resultMessage = document.getElementById("resultMessage");
