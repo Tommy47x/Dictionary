@@ -1,4 +1,5 @@
 const dictionary = new Set();
+
 function saveWord() {
 
   const newWord = document.getElementById("newWord").value;
